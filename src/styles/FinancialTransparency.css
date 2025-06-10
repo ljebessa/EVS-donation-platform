@@ -1,0 +1,30 @@
+.transparency-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+.transparency-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.section h2 {
+  color: #0070ba;
+  font-size: 18px;
+}
+
+.cta-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
