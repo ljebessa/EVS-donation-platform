@@ -50,12 +50,16 @@ const Donate = () => {
       </div>
 
        {/* 📨 Mail Contribution Option */}
-      <div className="mail-contribution">
-        <h3>Prefer to Donate by Mail?</h3>
-        <p>Send a check payable to <strong>Ethiopian Village Schools</strong> at:</p>
-        <p><strong>1234 Donation St, Suite 200<br/>City, State, ZIP Code</strong></p>
-        <p>Include your email or phone number for a receipt.</p>
-      </div>
+<div className="mail-contribution">
+  <h3 className="dark-text">Prefer to Donate by Mail?</h3>
+  <p className="dark-text">Send a check payable to: </p>
+  <p className="dark-text">
+    <strong>Ethiopian Village Schools</strong> </p>
+  <p className="dark-text">
+    <strong> P.O. Box 6512<br/>Albany, CA, 94706</strong>
+  </p>
+  <p className="dark-text">Ethiopianvillageschools@gmail.com</p>
+</div>
     
 
     </div>

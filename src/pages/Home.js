@@ -5,7 +5,7 @@ import heroImage from "../assets/images/bilo38_orig_EVS.jpg";
 import ImageSlider from "../components/ImageSlider";
 
 const Home = () => {
-  const [showInfo, setShowInfo] = useState(false);
+  const [showInfo] = useState(false);
   const [showMissionDetails, setShowMissionDetails] = useState(false);
   const [showImpactDetails, setShowImpactDetails] = useState(false);
   const [showOverviewDetails, setShowOverviewDetails] = useState(false);
